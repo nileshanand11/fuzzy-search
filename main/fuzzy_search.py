@@ -12,8 +12,9 @@ WORD_LIMIT = 25
 
 def get_suggetions(word):
     if(word is None):
-        return ''
+        return []
     words = {}
+    word = word.lower()
     with open('data/word_search.tsv') as cfile:
         reader =  csv.reader(cfile, delimiter='\t')
         for row in reader:
