@@ -1,5 +1,5 @@
 #!flask/bin/python
-from flask import Flask, jsonify, abort, make_response, request
+from flask import Flask, jsonify, make_response, request
 from main.fuzzy_search import get_suggetions
 import json
 

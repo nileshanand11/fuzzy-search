@@ -1,12 +1,9 @@
 #!/usr/bin/env python
 # encoding: utf-8
 from __future__ import unicode_literals
-from . import validator
 from Levenshtein.StringMatcher import StringMatcher
 
 # import pandas as pd
-import platform
-import warnings
 import csv
 import operator
 import json
